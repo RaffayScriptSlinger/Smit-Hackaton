@@ -1,0 +1,163 @@
+#maincontainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+}
+#sectioncenterspan{
+    margin: 0px 10px;
+}
+#sectioncenter{
+    align-items: center;
+}
+#sectionright{
+    display: flex;
+}
+#sectionright #btnone{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 33px;
+}
+#sectionright #btnone:hover{
+    background-color: rgb(224, 224, 224);
+}
+#sectionright #btntwo{
+    align-items: center;
+    display: flex;
+    
+    font-weight: bold;
+    box-shadow: 2px 2px 6px yellow;
+    
+}
+.sectioncenterspan{
+    font-weight: bold;
+}
+#sectionone{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+#sectiononedivone h1{
+    font-weight: bolder;
+    font-size: 54px;
+}
+#sectiononedivone p{
+    color: grey;
+}
+#sectiononedivone .btn{
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    background-color: rgb(255, 160, 160);
+    border: none;
+    border-radius: 12px;
+    margin: 20px 0px;
+
+}
+#btncontainero{
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#btncontainero > button{
+    width: 100px !important;
+}
+#raffaymain{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+#cards-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+@media only screen and (max-width:500px){
+    #maincontainer{
+        width: 100%;
+        
+    }
+    #navbarcontainer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sectionleft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sectionleft img{
+        width: 160px;
+        height: 20px;
+    }
+    .fordeskhtop{
+        display: none;
+    }
+    .formobile{
+        display: block;
+        font-size: small;
+        align-items: center;
+        text-align: center;
+        
+    }
+    #raffaymain {
+        width: 100%;
+    }
+    
+  
+}
+@media only screen and (max-width:1100px){
+    #navabrcontainer{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width:582px){
+    #sectiononedivtwo img{
+        width: 100%;
+        height: 100%;
+
+    }
+    #sectioone{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+    #cards-1{
+        flex-direction: column;
+        margin-top: 50px;
+    
+    }
+}
